@@ -1,3 +1,7 @@
 test branch file
 test new line added
+<<<<<<< HEAD
 new line by demo branch v7
+=======
+new line by demo branch v7
+>>>>>>> test
