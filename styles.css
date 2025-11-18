@@ -1,0 +1,66 @@
+/* Basic Reset and Setup */
+body {
+    font-family: Arial, sans-serif; /* A clean, readable font */
+    background-color: #f4f4f4; /* A light gray background */
+    color: #333; /* Dark gray text color */
+    margin: 0; /* Remove default body margin */
+    padding: 0;
+    line-height: 1.6; /* Improve readability with more space between lines */
+}
+
+/* Header Styling */
+header {
+    background-color: #333; /* Dark background for the header */
+    color: #fff; /* White text for contrast */
+    padding: 1rem 0; /* Some space above and below */
+    text-align: center; /* Center the title */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow */
+}
+
+/* Navigation Menu */
+nav {
+    background-color: #444; /* Slightly lighter dark background for nav */
+    text-align: center;
+    padding: 0.5rem 0;
+}
+
+nav a {
+    color: #fff; /* White links */
+    text-decoration: none; /* Remove underlines from links */
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    display: inline-block; /* Allows links to have padding/margin */
+    transition: background-color 0.3s; /* Smooth color change on hover */
+}
+
+nav a:hover {
+    background-color: #555; /* Change color when a user hovers over a link */
+}
+
+/* Main Content Area */
+main {
+    padding: 2rem;
+    max-width: 800px; /* Keep content readable on large screens */
+    margin: 2rem auto; /* Center the content area on the page */
+    background: #fff; /* White background for the main content box */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Add a shadow to the content box */
+    border-radius: 5px; /* Slightly rounded corners */
+}
+
+/* Paragraph and Heading Styles */
+h1, h2 {
+    color: #333;
+}
+
+p {
+    margin-bottom: 1rem; /* Space between paragraphs */
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: #fff;
+    margin-top: 2rem; /* Space above the footer */
+}
